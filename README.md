@@ -1,6 +1,6 @@
 # login_ui
 
-A new Flutter project.
+Projeto Modelo de Login UI com Temas Dark e Light
 
 ## Getting Started
 
@@ -14,3 +14,15 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Definições de Funcionabilidades
+
+1. Splash
+2. Login
+   - Usuário (email) e senha
+   - Cadastro de nova conta usuário
+   - Edição de conta de usuário
+3. Configurações
+   - Usar tema padrão do ambiente
+   - Ativar tema Dark
+   - Manter usuáario logado
