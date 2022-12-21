@@ -38,6 +38,24 @@ dependencies:
   shared_preferences: ^2.0.15
   google_fonts: ^3.0.1
   intl: ^0.17.0
+  flutter_native_splash: ^2.2.16
+  flutter_launcher_icons: ^0.11.0
+
+flutter_native_splash:
+  color: "#000000"
+  image: "assets/app/logo-black.png"
+  android: true
+  ios: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app/icon-black.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  adaptative_icon_background: "#000000"
+  adaptative_icon_foreground: "assets/app/icon-transparent.png"
+
 
 dev_dependencies:
   flutter_test:
