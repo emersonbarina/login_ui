@@ -3,7 +3,8 @@ import 'package:login_ui/constant/constant_color.dart';
 import 'package:login_ui/functions/theme/app_theme.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
+//import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'homepage.dart';
 
 void main() async {
@@ -48,6 +49,21 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Login App',
+      /* Após gerar os arquivos, substituir o código
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: [
+        Locale('en', ''), // English, no country code
+        Locale('es', ''), // Spanish, no country code
+        Locale('pt', ''), // Portuguese, no country code
+      ],*/
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
+      locale: Locale('pt', ''),
+
       theme: ThemeData(),
       home: const HomePage(),
       debugShowCheckedModeBanner: false,

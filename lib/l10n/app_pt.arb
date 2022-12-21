@@ -1,0 +1,16 @@
+{
+    "appName": "Acesso",
+    "homePageTitle": "Controle de Acesso",
+    "name": "Nome",
+    "nameHint": "Entre com seu nome",
+    "email": "Email",
+    "emailHint": "Entre com seu email",
+    "password": "Senha",
+    "passwordHint": "Entre com sua senha",
+    "submitLogin": "Acesso",
+    "submitSave": "Gravar",
+    "submitCancel": "Cancelar",
+    "submitOk": "Ok",
+    "settings": "Configurações",
+    "changeLanguage": "Mudar o idioma"
+}
