@@ -7,14 +7,14 @@ import 'package:login_ui/components/my_textfield.dart';
 import 'package:login_ui/components/my_button.dart';
 import 'package:login_ui/components/square_tile.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+class LoginPage2 extends StatefulWidget {
+  const LoginPage2({Key? key}) : super(key: key);
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<LoginPage2> createState() => _LoginPage2State();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginPage2State extends State<LoginPage2> {
   final _usernameController = TextEditingController();
   final _passwordController = TextEditingController();
 
@@ -42,7 +42,6 @@ class _LoginPageState extends State<LoginPage> {
           child: SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-//              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.stretch,
 
               children: [

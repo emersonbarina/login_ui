@@ -37,7 +37,3 @@ class AppColors {
 
 }
 
-class SPref {
-  static const String isLight = "isLight";
-  static const String isOsTheme = "isOsTheme";
-}

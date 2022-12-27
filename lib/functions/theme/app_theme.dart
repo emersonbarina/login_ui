@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../constant/constant_color.dart';
+import '../../constant/constant_shared.dart';
 
 class ThemeProvider with ChangeNotifier {
   bool isLightTheme;
