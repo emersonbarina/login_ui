@@ -12,5 +12,10 @@
     "submitCancel": "Cancelar",
     "submitOk": "Ok",
     "settings": "Configurações",
-    "changeLanguage": "Mudar o idioma"
+    "changeLanguage": "Mudar o idioma",
+    "forgot": "Esqueci minha senha",
+    "signIn": "Entrar",
+    "signOr": "Ou acesse com",
+    "notMember": "Não é cadastrado?",
+    "registerNow": "Cadastre-se agora"
 }

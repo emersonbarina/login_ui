@@ -12,5 +12,10 @@
     "submitCancel": "Cancel",
     "submitOk": "Ok",
     "settings": "Settings",
-    "changeLanguage": "Change Language"
+    "changeLanguage": "Change Language",
+    "forgot": "Forgot Password?",
+    "signIn": "Sign In",
+    "signOr": "Or continue with",
+    "notMember": "Not a member?",
+    "registerNow": "Register Now"
 }

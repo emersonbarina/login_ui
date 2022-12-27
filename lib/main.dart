@@ -3,9 +3,8 @@ import 'package:login_ui/constant/constant_color.dart';
 import 'package:login_ui/functions/theme/app_theme.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-//import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'homepage.dart';
+import 'login_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -65,7 +64,7 @@ class MyApp extends StatelessWidget {
       locale: Locale('pt', ''),
 
       theme: ThemeData(),
-      home: const HomePage(),
+      home: const LoginPage(),
       debugShowCheckedModeBanner: false,
     );
   }

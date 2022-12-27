@@ -88,6 +88,15 @@ class ThemeProvider with ChangeNotifier {
       switchBgColor: isLightTheme
           ? AppColors.black.withOpacity(.1)
           : AppColors.grey.withOpacity(.3),
+      backgroundColor: isLightTheme ? AppColors.white : AppColors.black,
+      textColor: isLightTheme ? AppColors.text : AppColors.textDark,
+      textHighLightColor: isLightTheme ? AppColors.textHighlight : AppColors.textHighlightDark,
+      textHintColor: isLightTheme ? AppColors.hint : AppColors.hintDark,
+      fillColor: isLightTheme ? AppColors.fill : AppColors.fillDark,
+      borderFocusColor: isLightTheme ? AppColors.borderFocus : AppColors.borderFocusDark,
+      borderSideColor: isLightTheme ? AppColors.borderSide : AppColors.borderSideDark,
+      myButtonColor: isLightTheme ? AppColors.button : AppColors.buttonDark,
+      myButtonTextColor: isLightTheme ? AppColors.textButton : AppColors.textButtonDark,
     );
   }
 }
@@ -97,10 +106,30 @@ class ThemeMode {
   Color? switchColor;
   Color? thumbColor;
   Color? switchBgColor;
+  Color? backgroundColor;
+  Color? textColor;
+  Color? textHintColor;
+  Color? textHighLightColor;
+  Color? borderSideColor;
+  Color? borderFocusColor;
+  Color? fillColor;
+  Color? thicknessColor;
+  Color? myButtonColor;
+  Color? myButtonTextColor;
 
-  ThemeMode(
-      {this.gradientColors,
-        this.switchColor,
-        this.thumbColor,
-        this.switchBgColor});
+  ThemeMode({
+      this.gradientColors,
+      this.switchColor,
+      this.thumbColor,
+      this.switchBgColor,
+      this.backgroundColor,
+      this.textColor,
+      this.textHintColor,
+      this.textHighLightColor,
+      this.borderSideColor,
+      this.borderFocusColor,
+      this.fillColor,
+      this.thicknessColor,
+      this.myButtonColor,
+      this.myButtonTextColor});
 }
